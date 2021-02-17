@@ -1,0 +1,11 @@
+{
+  "type": "mysql",
+  "database": "db",
+  "entities": [
+      "dist/entities/**/*.entity.js"
+  ],
+  "migrations": [
+      "dist/migrations/**/*.js"
+  ],
+  "logging": true
+}
